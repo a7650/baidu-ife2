@@ -182,7 +182,7 @@ body{
 	background-color: #fff;
 	box-sizing: border-box;
 	border-bottom: 1px solid #e6e9ec;
-	
+	z-index: 98;
 }
 
 #head h3{
