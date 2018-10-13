@@ -32,12 +32,14 @@ body{
 	background-color: #ffffff;
 	border-right: 1px solid #e6e9ec;
 	overflow: hidden;
+	z-index: 97px;
 }
 #right_2{
 	height: 100%;
 	overflow: hidden;
 	background-color: #fff;
 	position: relative;
+	z-index: 97;
 }
 
 /*left_1*/
@@ -250,7 +252,11 @@ body{
 	width: 400px;
 	height: 70px;
 	border-bottom: 1px solid  #e6e9ec;
+	background: #fff;
 	position: relative;
+	/*box-shadow: 0 0 10px black;*/
+
+	z-index: 97;
 }
 #search>input{
 	width: 340px;
@@ -273,6 +279,11 @@ body{
 	height: 134px;
 	border-left: 4px solid #fff; 
 	border-bottom: 1px solid #e6e9ec;
+}
+#message_list{
+	position: relative;
+	top: 0;
+	z-index: 96px;
 }
 .linker:hover{
 	border-left-color: #2298f0
@@ -346,12 +357,13 @@ body{
 }
 
 
-/*right_2*/
+/*/*right_2*/
 #right_2>.head{
 	margin-top: 80px;
 	width: 100%;
 	height: 70px;
 	border-bottom: 1px solid  #e6e9ec;
+	background-color: #fff;
 }
 #right_2>.head>h3{
 	color: #000;
@@ -384,7 +396,7 @@ body{
 	border-right: none;
 }
 #right_2_icon img{
-		margin-top: 8px;
+	margin-top: 8px;
 }
 #page{
 	width: 154px;
@@ -417,7 +429,11 @@ body{
 #page_lf img{
 	margin-top: 13px;
 }
-
+#detail_list{
+	position: relative;
+	top: 0;
+	z-index: -1;
+}
 #right_2 li{
 	margin: 30px 56px 0 30px;
 }
@@ -520,6 +536,11 @@ body{
 	color: #fff;
 	position: relative;
 	margin-right: -80px;
-	border:1px solid #2399f1;
+	border:1px solid transparent;
 	border-radius: 2px;
 }
+#send:hover{
+	background-color: #4D86C7;
+	cursor: pointer;
+}
+
