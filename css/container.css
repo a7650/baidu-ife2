@@ -532,10 +532,11 @@ body{
 #send{
 	width: 70px;
 	height: 55px;
+	position:absolute;
+	top:21px;
+	right:30px;
 	background-color: #2399f1;
 	color: #fff;
-	position: relative;
-	margin-right: -80px;
 	border:1px solid transparent;
 	border-radius: 2px;
 }
